@@ -14,5 +14,32 @@ Git~
 git config --global: configurar global para git 
 git config --global user.name "nombre del usuario": configura el nombre dle usuario 
 git config --global user.email "email": configura el email 
-
+git config --global alias.tree "comando" :Ayuda para no escribrir todo de un comando, para los que se utilizan muchoo
+el tree es como un idetificador para que se pueda ejecutar "git tree" y realiza el comando que se escribi en comillas
 git init: para iniciar la raiz con git
+git branch -m <name>: cambia el nombre de la raiz
+
+git status: ve el estado de git 
+git add nombre del fichero: para que se le pueda tomar fotografias con git 
+git commit -m "comentario": saca la fotografia y le añade un comentario 
+git log: para visualizar los commit(fotografias)
+git checkout nombre del fichero : Regresar a la o posiscionarse a la copia 
+git reset:volver ala ultima fotografia
+git log --graph: se visualiza como una rama 
+git log --graph --pretty=online: ver un log en una sola linea
+git log --graph --all --online: ver en linea un poco resumido 
+
+git diff: ver los cambios que se realizaron
+
+git checkout HEAD : Hace que el commit donde se encuentra es la cabeza de las actualizaciones,por ello antes debes de colocarte 
+en donde sera tu nueva cabeza eso se hace con "git checkout nombre del fichero"
+
+git reset --hard --nombre del fichero :Regresa o elimina las fotografias que estan despues de ede id(nombredel fichero)
+
+git reflog: historial completo de los comentarios 
+
+git tag nombre del tag:poner un punto significativo en en donde se encuentra la head
+
+git add . : añade todos los ficheros que aun no se suben a git 
+git tag: ve los tags que tienes
+git checkout tags/nombre del tag: te mueve al tag que querias 
