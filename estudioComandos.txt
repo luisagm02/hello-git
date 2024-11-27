@@ -1,0 +1,18 @@
+Comandos para Git:
+Basicos~
+pwd: ver la ruta en la que me encuentro 
+cd [carpeta]: accedo a la carpeta indicada 
+ls: muestra el listado de los archivos que se encuentran en la carpta 
+cd ..: Retrocede una carpeta 
+mkdir "nombre de la carpeta": Crea una carpeta
+code . : Abre visual studio si lo tienes instalado 
+clear: limpia la consola 
+touch "nombre del archivo con extension" : crea un fichero para visual
+
+
+Git~
+git config --global: configurar global para git 
+git config --global user.name "nombre del usuario": configura el nombre dle usuario 
+git config --global user.email "email": configura el email 
+
+git init: para iniciar la raiz con git
